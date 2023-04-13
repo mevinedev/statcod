@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diffrent way of internal linking</title>
+
+</head>
+<body>
+    <h1 id="top"> Links to sections of the same page using fragment identifiers</h1>
+    <section>
+        <ul>
+            <!--link to every section in the page-->
+            <li> <a href="#section1"> #section1</a></li>
+            <li> <a href="#section2"> #section2</a></li>
+            <li> <a href="#section3"> #section3</a></li>
+            <li> <a href="#section4"> #section4</a></li>
+            <li> <a href="#section5"> #section5</a></li>
+            <li> <a href="#section6"> #section6</a></li>
+        </ul>
+    </section>
+
+    <section id="section1">
+        <h3>(#section1)section 1</h3>
+        <p> my paragraph about section 1 </p>
+
+    </section>
+    <section id = "section2">
+        <h3>(#section2)section 2</h3>
+        <p>my paragraph about section 2</p>
+    </section>
+
+    <div>
+        <!--different way of internal linking-->
+        <h2> <a name="section1"> (#section1) Section 1</a></h2>
+        <p>
+            back to top: <a href="#top">back to top</a>
+        </p>
+    </div>
+
+    
+     
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class selectors</title>
+    <style>
+        div, span{
+            background-color: blue;
+            /*the background color between hello and world is blue
+            the div elements' background will span the entire width of the browser
+            the twxt world willappear on a separate line below the text Hello */
+        }
+
+        a:hover div:nth-child(5){
+            font-size: 24px;
+        /* this css rule will set the font size of div 5 text to 24px when the user hovers the mouse over any area inside the "a" element */   
+        }
+
+    </style>
+</head>
+<body>
+    <header> Pseudo Class selectors </header>
+    <div> hello</div>
+    <span>World !</span>
+    <a>
+        <div>div1</div>
+        <div>div2</div>
+        <div>div3</div>
+        <div>div4</div>
+        <div>div5</div>
+        <div>div6</div>
+    </a> 
+    
+</body>
+
+
+</html>

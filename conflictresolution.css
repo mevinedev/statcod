@@ -1,0 +1,30 @@
+body{
+    background-color: cornflowerblue;
+    font-size: larger;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*for id selectors, use hash before id name */
+#interests {
+    color: fuchsia;
+    background-color: blue;
+    font-weight: bolder;
+    font-size: larger;
+}
+#divorspan {
+    color: orangered;
+    background-color: darkgreen;
+    font-weight: bold;
+    font-size: large;
+}
+/* in css, the last declaration wins */
+/* every child element inherits the parent's properties,
+eg inside the body tag, all elements will inherit the properties of the body tag.
+In specificity, the most specific selector wins.happens when you define the style element of the css directly in the element eg <h2 style = "color:green;">
+you can overide all specified attributes by usin the !important in the style eg 
+p{color:green !important;} makes the less specific rule to color green. only use this when you have to.*/
+
+/* css conflict resolution considers origin, merge, inheritance & specificity.
+It provides precise control over targetting content while allowing maximum re-use of styles across your website. */
+
+

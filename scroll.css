@@ -1,0 +1,29 @@
+/*Content - The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent */
+
+#interests{
+    width: 80%;
+    height: 20%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-color: cyan;
+    overflow: scroll; /*allows you to scroll in the page, you can also set overflow to auto, to put scroll automatically when needed*/ 
+    
+  }
+
+
+/*Total element width = width + left padding + right padding + left border + right border + left margin + right margin*/
+/*Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin */
+ 
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(178, 32, 134);
+    box-sizing: border-box;
+}
+
+
+  

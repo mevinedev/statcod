@@ -1,0 +1,23 @@
+/*setting background properties of the site or webpage*/
+body {
+    color:white ;
+    background-color: #61122f;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+}
+
+/* header*/
+#header-nav {
+    background-color: #f6b319;
+    border-radius:0;
+    border: 0;
+}
+
+/*logo-img*/
+#logo-img{
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    
+ }

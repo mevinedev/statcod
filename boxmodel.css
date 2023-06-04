@@ -1,7 +1,7 @@
 /*Content - The content of the box, where text and images appear
 Padding - Clears an area around the content. The padding is transparent
 Border - A border that goes around the padding and content
-Margin - Clears an area outside the border. The margin is transparent. margins dont define width of box, just how far contents should be pushed away from it */
+Margin - Clears an area outside the border. The margin is transparent. margins dont define width of box, just how far contents should be pushed away from it. */
 
 #interests{
     width: 80%;
@@ -19,6 +19,7 @@ div {
   width: 100px;
   border: 10px solid black;
 } 
+
 here pixels of this id of div tag will have 140px */
 
 
@@ -30,10 +31,11 @@ div{
 div{
   margin-top: 20px;
 }
-this is because vertcal margins that touch collapse and the larger one wins */  
+This is because vertcal margins that touch collapse and the larger one wins */  
 /*for right and left margin, total is equal to their sum since they combine*/
    
 /*Total element width = width + left padding + right padding + left border + right border + left margin + right margin*/
+
 /*Total element height = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin */
  
 body{
